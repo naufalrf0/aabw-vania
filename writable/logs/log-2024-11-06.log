@@ -1,0 +1,934 @@
+CRITICAL - 2024-11-06 11:39:11 --> ParseError: syntax error, unexpected variable "$this"
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 16.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Transaksi/akun3', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Transaksi/akun3')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Transaksi/akun3')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:39:12 --> ParseError: syntax error, unexpected variable "$this"
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 16.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Transaksi/status', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Transaksi/status')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Transaksi/status')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:39:13 --> ParseError: syntax error, unexpected variable "$this"
+[Method: GET, Route: transaksi]
+in APPPATH\Controllers\Transaksi.php on line 16.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\aabw\\vendor\\composer/../../app\\Controllers\\Transaksi.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Transaksi')
+ 3 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Transaksi', true)
+ 4 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:40:01 --> Error: Class "App\Controllers\ModelNilai" not found
+[Method: GET, Route: transaksi]
+in APPPATH\Controllers\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:41:33 --> Error: Class "App\Controllers\ModelNilai" not found
+[Method: GET, Route: transaksi]
+in APPPATH\Controllers\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-06 11:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 11:47:50 --> CSRF token verified.
+INFO - 2024-11-06 11:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 11:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 11:49:14 --> CSRF token verified.
+INFO - 2024-11-06 11:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 11:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 11:50:36 --> CSRF token verified.
+ERROR - 2024-11-06 11:50:36 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(124): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-06 11:50:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+[Method: DELETE, Route: transaksi/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Transaksi.php(124): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:50:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Transaksi.php(124): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:50:36 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Transaksi.php(124): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-06 11:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 11:52:51 --> CSRF token verified.
+ERROR - 2024-11-06 11:52:51 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(124): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-06 11:52:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+[Method: DELETE, Route: transaksi/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Transaksi.php(124): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:52:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Transaksi.php(124): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:52:51 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Transaksi.php(124): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-06 11:55:35 --> CSRF token verified.
+ERROR - 2024-11-06 11:55:36 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-06 11:55:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+[Method: DELETE, Route: transaksi/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:55:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:55:36 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-06 11:55:38 --> CSRF token verified.
+ERROR - 2024-11-06 11:55:38 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-06 11:55:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+[Method: DELETE, Route: transaksi/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:55:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:55:38 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-06 11:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 11:55:44 --> CSRF token verified.
+ERROR - 2024-11-06 11:55:44 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-06 11:55:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+[Method: DELETE, Route: transaksi/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:55:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:55:44 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-06 11:58:35 --> CSRF token verified.
+ERROR - 2024-11-06 11:58:35 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-06 11:58:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+[Method: DELETE, Route: transaksi/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:58:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:58:35 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-06 11:58:39 --> CSRF token verified.
+ERROR - 2024-11-06 11:58:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-06 11:58:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+[Method: DELETE, Route: transaksi/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:58:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 11:58:39 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('3')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-06 11:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 11:58:45 --> CSRF token verified.
+INFO - 2024-11-06 11:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 11:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:00:24 --> CSRF token verified.
+ERROR - 2024-11-06 12:00:24 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-06 12:00:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+[Method: DELETE, Route: transaksi/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:00:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:00:24 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilai`, CONSTRAINT `tbl_nilai_id_transaksi_foreign` FOREIGN KEY (`id_transaksi`) REFERENCES `tbl_transaksi` (`id_transaksi`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Transaksi.php(125): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->delete('4')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-06 12:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:02:41 --> CSRF token verified.
+INFO - 2024-11-06 12:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:09:53 --> CSRF token verified.
+INFO - 2024-11-06 12:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:18:54 --> CSRF token verified.
+INFO - 2024-11-06 12:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:19:37 --> CSRF token verified.
+INFO - 2024-11-06 12:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:19:44 --> CSRF token verified.
+INFO - 2024-11-06 12:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:19:54 --> CSRF token verified.
+INFO - 2024-11-06 12:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-06 12:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-06 12:26:37 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:28:02 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:29:43 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 68.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 3 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:30:08 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:32:26 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:32:27 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:32:29 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:32:51 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:33:18 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:33:56 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:33:57 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:34:25 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:34:54 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 18.
+ 1 APPPATH\Views\transaksi\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 12:35:54 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 26.
+ 1 APPPATH\Views\transaksi\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 13:32:39 --> ErrorException: Undefined variable $dttransaksi
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 26.
+ 1 APPPATH\Views\transaksi\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dttransaksi', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 13:36:01 --> ErrorException: Undefined variable $dtnilai
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 48.
+ 1 APPPATH\Views\transaksi\edit.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dtnilai', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 48)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 13:36:02 --> ErrorException: Undefined variable $dtnilai
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 48.
+ 1 APPPATH\Views\transaksi\edit.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dtnilai', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php', 48)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(106): view('transaksi/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-06 14:03:13 --> Error: Undefined constant " "
+[Method: GET, Route: transaksi/5/edit]
+in APPPATH\Views\transaksi\edit.php on line 84.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/edit', [], true)
+ 4 APPPATH\Controllers\Transaksi.php(118): view('transaksi/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->edit('5')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-06 14:26:10 --> CSRF token verified.
+INFO - 2024-11-06 14:26:17 --> CSRF token verified.
+INFO - 2024-11-06 14:26:32 --> CSRF token verified.
+INFO - 2024-11-06 14:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,51 @@
+CRITICAL - 2024-09-26 01:39:01 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: migrate]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-09-26 02:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 02:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 02:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 02:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 02:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 02:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 02:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 02:36:23 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: make:migration]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-26 02:36:46 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: make:migration/CreateAkun2]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-26 02:39:47 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: make:migration/CreateAkun2]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-26 02:45:43 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: make:migration/CreateAkun2]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-26 02:49:26 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: make:migration/Create/Akun2]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-26 02:59:37 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: make:migration/Akun2]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-26 03:00:22 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: make:migration/Akun2]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-26 03:08:06 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: make:migration/CreateAkun2]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-26 03:09:08 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: make:migration/CreateAkun2]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-26 03:09:50 --> ErrorException: Cannot declare class App\Database\Migrations\CreateAkun1, because the name is already in use
+[Method: CLI, Route: make:migration/CreateAkun2]
+in APPPATH\Config\Migrations.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

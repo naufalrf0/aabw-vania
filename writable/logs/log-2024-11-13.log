@@ -1,0 +1,2046 @@
+INFO - 2024-11-13 10:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-13 10:19:56 --> BadMethodCallException: Call to undefined method App\Models\ModelTransaksi::get_jpenyesuaian
+[Method: GET, Route: jurnalpenyesuaian]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JurnalPenyesuaian.php(27): CodeIgniter\Model->__call('get_jpenyesuaian', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalPenyesuaian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalPenyesuaian))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 10:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-13 10:25:54 --> ErrorException: Undefined property: stdClass::$debit
+[Method: GET, Route: jurnalpenyesuaian]
+in APPPATH\Views\jurnalpenyesuaian\index.php on line 54.
+ 1 APPPATH\Views\jurnalpenyesuaian\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$debit', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\jurnalpenyesuaian\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\jurnalpenyesuaian\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('jurnalpenyesuaian/index', [], true)
+ 5 APPPATH\Controllers\JurnalPenyesuaian.php(31): view('jurnalpenyesuaian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalPenyesuaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalPenyesuaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 10:26:53 --> ErrorException: Undefined property: stdClass::$debit
+[Method: GET, Route: jurnalpenyesuaian]
+in APPPATH\Views\jurnalpenyesuaian\index.php on line 54.
+ 1 APPPATH\Views\jurnalpenyesuaian\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$debit', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\jurnalpenyesuaian\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\jurnalpenyesuaian\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('jurnalpenyesuaian/index', [], true)
+ 5 APPPATH\Controllers\JurnalPenyesuaian.php(31): view('jurnalpenyesuaian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalPenyesuaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalPenyesuaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 10:26:54 --> ErrorException: Undefined property: stdClass::$debit
+[Method: GET, Route: jurnalpenyesuaian]
+in APPPATH\Views\jurnalpenyesuaian\index.php on line 54.
+ 1 APPPATH\Views\jurnalpenyesuaian\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$debit', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\jurnalpenyesuaian\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\jurnalpenyesuaian\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('jurnalpenyesuaian/index', [], true)
+ 5 APPPATH\Controllers\JurnalPenyesuaian.php(31): view('jurnalpenyesuaian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalPenyesuaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalPenyesuaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 10:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:42:30 --> CSRF token verified.
+INFO - 2024-11-13 10:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:42:51 --> CSRF token verified.
+INFO - 2024-11-13 10:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:47:04 --> CSRF token verified.
+INFO - 2024-11-13 10:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:48:17 --> CSRF token verified.
+INFO - 2024-11-13 10:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:49:59 --> CSRF token verified.
+INFO - 2024-11-13 10:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:51:49 --> CSRF token verified.
+INFO - 2024-11-13 10:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:53:35 --> CSRF token verified.
+INFO - 2024-11-13 10:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 10:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-13 11:12:08 --> ErrorException: Undefined property: stdClass::$2500000
+[Method: GET, Route: jurnalpenyesuaian]
+in APPPATH\Views\jurnalpenyesuaian\index.php on line 79.
+ 1 APPPATH\Views\jurnalpenyesuaian\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$2500000', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\jurnalpenyesuaian\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\jurnalpenyesuaian\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('jurnalpenyesuaian/index', [], true)
+ 5 APPPATH\Controllers\JurnalPenyesuaian.php(31): view('jurnalpenyesuaian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalPenyesuaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalPenyesuaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:39:50 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:40:33 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:40:51 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:40:52 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:41:33 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:41:35 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:41:36 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:41:43 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:42:12 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:42:13 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 11:42:15 --> ErrorException: Undefined property: stdClass::$jumdebit
+[Method: GET, Route: jurnalpenyesuaian]
+in APPPATH\Views\jurnalpenyesuaian\index.php on line 56.
+ 1 APPPATH\Views\jurnalpenyesuaian\index.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jumdebit', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\jurnalpenyesuaian\\index.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\jurnalpenyesuaian\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('jurnalpenyesuaian/index', [], true)
+ 5 APPPATH\Controllers\JurnalPenyesuaian.php(31): view('jurnalpenyesuaian/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalPenyesuaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalPenyesuaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 11:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 11:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-13 11:42:21 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 11:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 11:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-13 11:43:00 --> ErrorException: Undefined variable $debitnew
+[Method: GET, Route: neracasaldo]
+in APPPATH\Views\neracasaldo\index.php on line 54.
+ 1 APPPATH\Views\neracasaldo\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debitnew', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\neracasaldo\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('neracasaldo/index', [], true)
+ 5 APPPATH\Controllers\NeracaSaldo.php(31): view('neracasaldo/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 11:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 11:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-13 13:33:04 --> CSRF token verified.
+INFO - 2024-11-13 13:33:21 --> CSRF token verified.
+CRITICAL - 2024-11-13 13:46:36 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(534): include('C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:46:37 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(534): include('C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:46:39 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(534): include('C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 13:47:29 --> CSRF token verified.
+CRITICAL - 2024-11-13 13:47:29 --> Error: Class "App\Controllers\TCPDF" not found
+[Method: POST, Route: neracasaldo/neracasaldopdf]
+in APPPATH\Controllers\NeracaSaldo.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->neracasaldopdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 13:49:08 --> CSRF token verified.
+CRITICAL - 2024-11-13 13:49:08 --> Error: Class "App\Controllers\TCPDF" not found
+[Method: POST, Route: neracasaldo/neracasaldopdf]
+in APPPATH\Controllers\NeracaSaldo.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->neracasaldopdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 13:49:18 --> CSRF token verified.
+CRITICAL - 2024-11-13 13:49:18 --> Error: Class "App\Controllers\TCPDF" not found
+[Method: POST, Route: neracasaldo/neracasaldopdf]
+in APPPATH\Controllers\NeracaSaldo.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->neracasaldopdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 13:51:11 --> CSRF token verified.
+CRITICAL - 2024-11-13 13:51:11 --> Error: Undefined constant "App\Controllers\PDF_UNIT"
+[Method: POST, Route: neracasaldo/neracasaldopdf]
+in APPPATH\Controllers\NeracaSaldo.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->neracasaldopdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 13:51:24 --> CSRF token verified.
+CRITICAL - 2024-11-13 13:51:24 --> Error: Undefined constant "App\Controllers\PDF_UNIT"
+[Method: POST, Route: neracasaldo/neracasaldopdf]
+in APPPATH\Controllers\NeracaSaldo.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->neracasaldopdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 13:52:52 --> CSRF token verified.
+CRITICAL - 2024-11-13 13:52:52 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: POST, Route: neracasaldo/neracasaldopdf]
+in APPPATH\Controllers\NeracaSaldo.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\NeracaSaldo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:53:06 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(534): include('C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:53:06 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:53:07 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:53:08 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:53:08 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:53:15 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:53:15 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:54:00 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(534): include('C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:54:00 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:54:01 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:54:02 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:54:02 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:56:25 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(534): include('C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:56:25 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:56:25 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:57:03 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(534): include('C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:57:03 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:57:03 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:59:48 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(534): include('C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:59:49 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:59:49 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:59:58 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(534): include('C:\\xampp\\htdocs\\aabw\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:59:58 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:59:59 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 13:59:59 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: neracasaldo]
+in APPPATH\Controllers\NeracaSaldo.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\NeracaSaldo->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 14:00:02 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 14:00:02 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 14:05:12 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 14:05:12 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 14:05:15 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 14:05:15 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 14:05:18 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 14:05:18 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 14:18:11 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 14:18:11 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:19:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-13 14:19:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: Transaksi/akun3]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `akun3s`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:19:25 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-13 14:19:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: Transaksi/status]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_status`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:19:30 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`deb...', Array, false)
+#4 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(111): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\app\Controllers\NeracaSaldo.php(26): App\Models\ModelTransaksi->get_neracasaldo('', '')
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`deb...', Array, false)
+#3 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(111): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\app\Controllers\NeracaSaldo.php(26): App\Models\ModelTransaksi->get_neracasaldo('', '')
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-13 14:19:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: neracasaldo]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`debit`) AS `jumdebit`, SUM(`kredit`) AS `jumkredit`, `akun3s`.`kode_akun3`, `akun3s`.`nama_akun3`, `tbl_transaksi`.`tanggal`, `debit`, `kredit`
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+GROUP BY `akun3s`.`kode_akun3`', [], false)
+ 3 APPPATH\Models\ModelTransaksi.php(111): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\NeracaSaldo.php(26): App\Models\ModelTransaksi->get_neracasaldo('', '')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:19:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`deb...', Array, false)
+#4 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(111): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\app\Controllers\NeracaSaldo.php(26): App\Models\ModelTransaksi->get_neracasaldo('', '')
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`deb...', Array, false)
+#3 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(111): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\app\Controllers\NeracaSaldo.php(26): App\Models\ModelTransaksi->get_neracasaldo('', '')
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-13 14:19:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: neracasaldo]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`debit`) AS `jumdebit`, SUM(`kredit`) AS `jumkredit`, `akun3s`.`kode_akun3`, `akun3s`.`nama_akun3`, `tbl_transaksi`.`tanggal`, `debit`, `kredit`
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+GROUP BY `akun3s`.`kode_akun3`', [], false)
+ 3 APPPATH\Models\ModelTransaksi.php(111): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\NeracaSaldo.php(26): App\Models\ModelTransaksi->get_neracasaldo('', '')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:19:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-13 14:19:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: Transaksi/status]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_status`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:19:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-13 14:19:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: Transaksi/akun3]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `akun3s`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:19:54 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-13 14:19:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: Transaksi/akun3]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `akun3s`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:19:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-13 14:19:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: Transaksi/status]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_status`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:20:02 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`deb...', Array, false)
+#4 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(111): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\app\Controllers\NeracaSaldo.php(26): App\Models\ModelTransaksi->get_neracasaldo('', '')
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`deb...', Array, false)
+#3 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(111): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\app\Controllers\NeracaSaldo.php(26): App\Models\ModelTransaksi->get_neracasaldo('', '')
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-13 14:20:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: neracasaldo]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`debit`) AS `jumdebit`, SUM(`kredit`) AS `jumkredit`, `akun3s`.`kode_akun3`, `akun3s`.`nama_akun3`, `tbl_transaksi`.`tanggal`, `debit`, `kredit`
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+GROUP BY `akun3s`.`kode_akun3`', [], false)
+ 3 APPPATH\Models\ModelTransaksi.php(111): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\NeracaSaldo.php(26): App\Models\ModelTransaksi->get_neracasaldo('', '')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:20:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-13 14:20:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: Transaksi/akun3]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `akun3s`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Transaksi.php(197): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->akun3()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 14:20:33 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aabw', 3306, '', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\aabw\app\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-13 14:20:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: Transaksi/status]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_status`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Transaksi.php(204): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->status()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 14:26:04 --> CSRF token verified.
+CRITICAL - 2024-11-13 14:26:05 --> Error: Class "App\Controllers\TCPDF" not found
+[Method: POST, Route: neracasaldo/neracasaldopdf]
+in APPPATH\Controllers\NeracaSaldo.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->neracasaldopdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 14:27:51 --> CSRF token verified.
+CRITICAL - 2024-11-13 14:27:51 --> Error: Class "App\Controllers\TCPDF" not found
+[Method: POST, Route: neracasaldo/neracasaldopdf]
+in APPPATH\Controllers\NeracaSaldo.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->neracasaldopdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 14:30:14 --> CSRF token verified.
+CRITICAL - 2024-11-13 14:30:14 --> Error: Class "App\Controllers\TCPDF" not found
+[Method: POST, Route: neracasaldo/neracasaldopdf]
+in APPPATH\Controllers\NeracaSaldo.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->neracasaldopdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 14:32:36 --> CSRF token verified.
+CRITICAL - 2024-11-13 14:32:36 --> Error: Class "App\Controllers\TCPDF" not found
+[Method: POST, Route: neracasaldo/neracasaldopdf]
+in APPPATH\Controllers\NeracaSaldo.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaSaldo->neracasaldopdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaSaldo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-13 14:35:35 --> CSRF token verified.
+INFO - 2024-11-13 14:44:02 --> CSRF token verified.
+INFO - 2024-11-13 14:45:01 --> CSRF token verified.
+INFO - 2024-11-13 14:46:10 --> CSRF token verified.
+INFO - 2024-11-13 14:47:28 --> CSRF token verified.
+INFO - 2024-11-13 14:49:45 --> CSRF token verified.
+INFO - 2024-11-13 14:50:39 --> CSRF token verified.
+INFO - 2024-11-13 14:51:40 --> CSRF token verified.
+INFO - 2024-11-13 14:52:43 --> CSRF token verified.
+INFO - 2024-11-13 14:53:12 --> CSRF token verified.
+INFO - 2024-11-13 14:54:24 --> CSRF token verified.
+INFO - 2024-11-13 14:54:54 --> CSRF token verified.
+INFO - 2024-11-13 14:55:21 --> CSRF token verified.
+ERROR - 2024-11-13 15:49:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tbl_nilai' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on...' at line 28 in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM (...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM (...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM (...')
+#3 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(117): CodeIgniter\Database\BaseConnection->query('SELECT * FROM (...')
+#4 C:\xampp\htdocs\aabw\app\Controllers\NeracaLajur.php(26): App\Models\ModelTransaksi->get_neracalajur('', '')
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\NeracaLajur->index()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaLajur))
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-13 15:49:35 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tbl_nilai' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on...' at line 28
+[Method: GET, Route: neracalajur]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\ModelTransaksi.php(117): CodeIgniter\Database\BaseConnection->query('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 2 APPPATH\Controllers\NeracaLajur.php(26): App\Models\ModelTransaksi->get_neracalajur('', '')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaLajur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaLajur))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 15:49:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tbl_nilai' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on...' at line 28
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 3 APPPATH\Models\ModelTransaksi.php(117): CodeIgniter\Database\BaseConnection->query('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 4 APPPATH\Controllers\NeracaLajur.php(26): App\Models\ModelTransaksi->get_neracalajur('', '')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaLajur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaLajur))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 15:49:35 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tbl_nilai' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on...' at line 28
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 4 APPPATH\Models\ModelTransaksi.php(117): CodeIgniter\Database\BaseConnection->query('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 5 APPPATH\Controllers\NeracaLajur.php(26): App\Models\ModelTransaksi->get_neracalajur('', '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaLajur->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaLajur))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-13 15:57:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tbl_nilai' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on...' at line 28 in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM (...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM (...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM (...')
+#3 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(117): CodeIgniter\Database\BaseConnection->query('SELECT * FROM (...')
+#4 C:\xampp\htdocs\aabw\app\Controllers\NeracaLajur.php(26): App\Models\ModelTransaksi->get_neracalajur('', '')
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\NeracaLajur->index()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaLajur))
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-13 15:57:41 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tbl_nilai' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on...' at line 28
+[Method: GET, Route: neracalajur]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\ModelTransaksi.php(117): CodeIgniter\Database\BaseConnection->query('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 2 APPPATH\Controllers\NeracaLajur.php(26): App\Models\ModelTransaksi->get_neracalajur('', '')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaLajur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaLajur))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 15:57:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tbl_nilai' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on...' at line 28
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 3 APPPATH\Models\ModelTransaksi.php(117): CodeIgniter\Database\BaseConnection->query('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 4 APPPATH\Controllers\NeracaLajur.php(26): App\Models\ModelTransaksi->get_neracalajur('', '')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaLajur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaLajur))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-13 15:57:41 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tbl_nilai' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on...' at line 28
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 4 APPPATH\Models\ModelTransaksi.php(117): CodeIgniter\Database\BaseConnection->query('SELECT * FROM (
+            SELECT 
+                tbak.nama_akun3, 
+                tb1.kode_akun3, 
+                tb3.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM tbl_nilai as tb1
+                join tbl_transaksi as tb3 on tb3.id_transaksi = tb1.id_transaksi
+                left join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb1.kode_akun3 = tbak.kode_akun3
+                group by tb1.kode_akun3
+
+            UNION
+
+            SELECT 
+                tbak.nama_akun3, 
+                tb2.kode_akun3, 
+                tb4.tanggal as tanggal,
+                sum(tb1.debit) as jumdebit,
+                sum(tb1.kredit) as jumkredit,
+                tb2.debit as jumdebits,
+                tb2.kredit as jumkredits
+
+            FROM \'tbl_nilai\' as tb1
+
+                right join tbl_nilaipenyesuaian as tb2 on tb1.kode_akun3 = tb2.kode_akun3
+                join akun3s as tbak on tb2.kode_akun3 = tbak.kode_akun3
+                join tbl_penyesuaian as tb4 on tb4.id_penyesuaian = tb2.id_penyesuaian
+                group by tb2.kode_akun3) as tb1_new
+                group by tb1_new.kode_akun3')
+ 5 APPPATH\Controllers\NeracaLajur.php(26): App\Models\ModelTransaksi->get_neracalajur('', '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NeracaLajur->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NeracaLajur))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')

@@ -1,0 +1,1139 @@
+CRITICAL - 2024-11-11 14:17:16 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:17:16 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:18:36 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:18:37 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:18:39 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: transaksi]
+in APPPATH\Controllers\Transaksi.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:20:34 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:20:34 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:20:35 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:20:35 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:20:36 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: transaksi]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:20:42 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:20:42 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:21:26 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:21:26 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:21:26 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: transaksi]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:24:38 --> ParseError: syntax error, unexpected variable "$this"
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 30.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Transaksi/akun3', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Transaksi/akun3')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Transaksi/akun3')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:24:38 --> ParseError: syntax error, unexpected variable "$this"
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 30.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Transaksi/status', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Transaksi/status')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Transaksi/status')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:24:41 --> ParseError: syntax error, unexpected variable "$this"
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 30.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Transaksi/status', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Transaksi/status')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Transaksi/status')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:24:41 --> ParseError: syntax error, unexpected variable "$this"
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 30.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Transaksi/akun3', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Transaksi/akun3')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Transaksi/akun3')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:24:42 --> ParseError: syntax error, unexpected variable "$this"
+[Method: GET, Route: transaksi]
+in APPPATH\Controllers\Transaksi.php on line 30.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\aabw\\vendor\\composer/../../app\\Controllers\\Transaksi.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Transaksi')
+ 3 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Transaksi', true)
+ 4 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:24:55 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: transaksi]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:26:05 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:26:05 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:26:06 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:26:07 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:26:08 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: transaksi]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:26:14 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:26:14 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 14:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 14:26:25 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:26:26 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:26:28 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:26:28 --> Error: Class "App\Models\ModelTransaksi" not found
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Controllers\Transaksi.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 14:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 14:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 14:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 14:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 14:35:11 --> CSRF token verified.
+INFO - 2024-11-11 14:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 14:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 14:37:30 --> Error: Class "App\Controllers\ModelAkun3" not found
+[Method: GET, Route: penyesuaian]
+in APPPATH\Controllers\Penyesuaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Penyesuaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:39:31 --> Error: Class "App\Controllers\ModelAkun3" not found
+[Method: GET, Route: penyesuaian]
+in APPPATH\Controllers\Penyesuaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Penyesuaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:39:33 --> Error: Class "App\Controllers\ModelAkun3" not found
+[Method: GET, Route: penyesuaian/new]
+in APPPATH\Controllers\Penyesuaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Penyesuaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 14:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 14:42:55 --> Error: Class "App\Controllers\ModelAkun3" not found
+[Method: GET, Route: penyesuaian]
+in APPPATH\Controllers\Penyesuaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Penyesuaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 14:50:01 --> Error: Class "App\Controllers\ModelAkun3" not found
+[Method: GET, Route: penyesuaian]
+in APPPATH\Controllers\Penyesuaian.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Penyesuaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 14:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 14:53:53 --> CSRF token verified.
+INFO - 2024-11-11 14:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 14:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-11 14:54:53 --> mysqli_sql_exception: Table 'aabw.id_penyesuaian' doesn't exist in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('ALTER TABLE `id...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `id...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `id...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\Forge.php(539): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `id...')
+#4 C:\xampp\htdocs\aabw\app\Database\Migrations\2024-11-07-073926_CreateNilaiPenyesuaian.php(63): CodeIgniter\Database\Forge->dropForeignKey('id_penyesuaian', 'tbl_nilaipenyes...')
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateNilaiPenyesuaian->down()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(290): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(10)
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\aabw\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-11 14:55:51 --> mysqli_sql_exception: Can't DROP FOREIGN KEY `tbl_nilaipenyesuaian_id_penyesuaian_foreign`; check that it exists in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('ALTER TABLE `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\Forge.php(539): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `tb...')
+#4 C:\xampp\htdocs\aabw\app\Database\Migrations\2024-11-07-073926_CreateNilaiPenyesuaian.php(63): CodeIgniter\Database\Forge->dropForeignKey('tbl_penyesuaian', 'tbl_nilaipenyes...')
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateNilaiPenyesuaian->down()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(290): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(10)
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\aabw\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-11 15:18:39 --> mysqli_sql_exception: Table 'tbl_penyesuaian' already exists in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `t...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\xampp\htdocs\aabw\app\Database\Migrations\2024-11-07-072907_CreatePenyesuaian.php(51): CodeIgniter\Database\Forge->createTable('tbl_penyesuaian')
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreatePenyesuaian->up()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\aabw\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-11 15:37:11 --> mysqli_sql_exception: Table 'tbl_penyesuaian' already exists in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `t...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\xampp\htdocs\aabw\app\Database\Migrations\2024-11-11-153236_CreatePenyesuaian.php(51): CodeIgniter\Database\Forge->createTable('tbl_penyesuaian')
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreatePenyesuaian->up()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\aabw\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+INFO - 2024-11-11 15:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 16:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 16:34:25 --> ErrorException: Undefined property: stdClass::$id_penyesuaian
+[Method: GET, Route: transaksi]
+in APPPATH\Views\transaksi\index.php on line 71.
+ 1 APPPATH\Views\transaksi\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_penyesuaian', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/index', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(41): view('transaksi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 16:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 16:34:41 --> ErrorException: Undefined property: stdClass::$id_penyesuaian
+[Method: GET, Route: transaksi]
+in APPPATH\Views\transaksi\index.php on line 71.
+ 1 APPPATH\Views\transaksi\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_penyesuaian', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/index', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(41): view('transaksi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 16:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 16:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 16:40:18 --> ErrorException: Undefined property: stdClass::$id_penyesuaian
+[Method: GET, Route: transaksi]
+in APPPATH\Views\transaksi\index.php on line 71.
+ 1 APPPATH\Views\transaksi\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_penyesuaian', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\transaksi\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('transaksi/index', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(41): view('transaksi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 16:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 16:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 16:42:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "penyesuaian/new.php"
+[Method: GET, Route: penyesuaian/new]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penyesuaian/new.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('penyesuaian/new', [], true)
+ 3 APPPATH\Controllers\Penyesuaian.php(52): view('penyesuaian/new')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->new()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 16:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 16:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 16:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 16:54:23 --> CSRF token verified.
+INFO - 2024-11-11 16:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 16:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 16:55:00 --> CSRF token verified.
+INFO - 2024-11-11 16:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 16:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-11 16:55:42 --> mysqli_sql_exception: Can't DROP FOREIGN KEY `tbl_nilaipenyesuaian_id_penyesuaian_foreign`; check that it exists in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('ALTER TABLE `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\Forge.php(539): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `tb...')
+#4 C:\xampp\htdocs\aabw\app\Database\Migrations\2024-11-11-161457_CreateNilaiPenyesuaian.php(63): CodeIgniter\Database\Forge->dropForeignKey('tbl_penyesuaian', 'tbl_nilaipenyes...')
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateNilaiPenyesuaian->down()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(290): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(7)
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\aabw\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+INFO - 2024-11-11 17:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:01:15 --> CSRF token verified.
+INFO - 2024-11-11 17:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:02:30 --> CSRF token verified.
+INFO - 2024-11-11 17:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:06:01 --> CSRF token verified.
+INFO - 2024-11-11 17:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:11:40 --> CSRF token verified.
+INFO - 2024-11-11 17:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:12:13 --> CSRF token verified.
+ERROR - 2024-11-11 17:12:13 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Penyesuaian.php(127): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-11 17:12:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+[Method: DELETE, Route: penyesuaian/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Penyesuaian.php(127): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 17:12:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Penyesuaian.php(127): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 17:12:13 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Penyesuaian.php(127): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 17:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:12:20 --> CSRF token verified.
+ERROR - 2024-11-11 17:12:20 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Penyesuaian.php(127): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-11 17:12:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+[Method: DELETE, Route: penyesuaian/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Penyesuaian.php(127): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 17:12:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Penyesuaian.php(127): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 17:12:20 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Penyesuaian.php(127): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 17:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:13:06 --> CSRF token verified.
+INFO - 2024-11-11 17:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 17:28:57 --> ErrorException: Undefined variable $dtnilaipenyesuaian
+[Method: GET, Route: penyesuaian/1]
+in APPPATH\Views\Penyesuaian\show.php on line 68.
+ 1 APPPATH\Views\Penyesuaian\show.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dtnilaipenyesuaian', 'C:\\xampp\\htdocs\\aabw\\app\\Views\\Penyesuaian\\show.php', 68)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aabw\\app\\Views\\Penyesuaian\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('penyesuaian/show', [], true)
+ 5 APPPATH\Controllers\Penyesuaian.php(52): view('penyesuaian/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 17:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:30:23 --> CSRF token verified.
+ERROR - 2024-11-11 17:30:23 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Penyesuaian.php(140): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-11 17:30:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+[Method: DELETE, Route: penyesuaian/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Penyesuaian.php(140): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 17:30:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Penyesuaian.php(140): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 17:30:23 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Penyesuaian.php(140): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-11 17:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:40:08 --> CSRF token verified.
+INFO - 2024-11-11 17:44:31 --> CSRF token verified.
+INFO - 2024-11-11 17:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:44:45 --> CSRF token verified.
+INFO - 2024-11-11 17:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 17:45:11 --> CSRF token verified.
+ERROR - 2024-11-11 17:45:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`)) in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\aabw\app\Controllers\Penyesuaian.php(182): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-11-11 17:45:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+[Method: DELETE, Route: penyesuaian/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 4 APPPATH\Controllers\Penyesuaian.php(182): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 17:45:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 6 APPPATH\Controllers\Penyesuaian.php(182): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 17:45:11 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aabw`.`tbl_nilaipenyesuaian`, CONSTRAINT `tbl_nilaipenyesuaian_id_penyesuaian_foreign` FOREIGN KEY (`id_penyesuaian`) REFERENCES `tbl_penyesuaian` (`id_penyesuaian`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_penyesuaian`
+WHERE `id_penyesuaian` = :id_penyesuaian:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Penyesuaian.php(182): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penyesuaian->delete('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penyesuaian))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:27:18 --> BadMethodCallException: Call to undefined method App\Models\ModelTransaksi::getj_jurnalumum
+[Method: GET, Route: jurnalumum]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JurnalUmum.php(25): CodeIgniter\Model->__call('getj_jurnalumum', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:29:23 --> BadMethodCallException: Call to undefined method App\Models\ModelTransaksi::getj_jurnalumum
+[Method: GET, Route: jurnalumum]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JurnalUmum.php(25): CodeIgniter\Model->__call('getj_jurnalumum', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:29:24 --> BadMethodCallException: Call to undefined method App\Models\ModelTransaksi::getj_jurnalumum
+[Method: GET, Route: jurnalumum]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JurnalUmum.php(25): CodeIgniter\Model->__call('getj_jurnalumum', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:31:30 --> BadMethodCallException: Call to undefined method App\Models\ModelTransaksi::getj_jurnalumum
+[Method: GET, Route: jurnalumum]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JurnalUmum.php(25): CodeIgniter\Model->__call('getj_jurnalumum', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:34:47 --> BadMethodCallException: Call to undefined method App\Models\ModelTransaksi::getj_jurnalumum
+[Method: GET, Route: jurnalumum]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JurnalUmum.php(25): CodeIgniter\Model->__call('getj_jurnalumum', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:34:48 --> BadMethodCallException: Call to undefined method App\Models\ModelTransaksi::getj_jurnalumum
+[Method: GET, Route: jurnalumum]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JurnalUmum.php(25): CodeIgniter\Model->__call('getj_jurnalumum', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:34:54 --> BadMethodCallException: Call to undefined method App\Models\ModelTransaksi::getj_jurnalumum
+[Method: GET, Route: jurnalumum]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JurnalUmum.php(25): CodeIgniter\Model->__call('getj_jurnalumum', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-11 23:35:24 --> mysqli_sql_exception: Table 'aabw.tbl' doesn't exist in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\app\Controllers\JurnalUmum.php(25): App\Models\ModelTransaksi->get_jurnalumum()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-11 23:35:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'aabw.tbl' doesn't exist
+[Method: GET, Route: jurnalumum]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`', [], false)
+ 2 APPPATH\Models\ModelTransaksi.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JurnalUmum.php(25): App\Models\ModelTransaksi->get_jurnalumum()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:35:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'aabw.tbl' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`', [], false)
+ 4 APPPATH\Models\ModelTransaksi.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JurnalUmum.php(25): App\Models\ModelTransaksi->get_jurnalumum()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:35:24 --> [Caused by] mysqli_sql_exception: Table 'aabw.tbl' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`', [], false)
+ 5 APPPATH\Models\ModelTransaksi.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JurnalUmum.php(25): App\Models\ModelTransaksi->get_jurnalumum()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+ERROR - 2024-11-11 23:36:50 --> mysqli_sql_exception: Table 'aabw.tbl' doesn't exist in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\app\Controllers\JurnalUmum.php(25): App\Models\ModelTransaksi->get_jurnalumum()
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-11 23:36:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'aabw.tbl' doesn't exist
+[Method: GET, Route: jurnalumum]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`', [], false)
+ 2 APPPATH\Models\ModelTransaksi.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JurnalUmum.php(25): App\Models\ModelTransaksi->get_jurnalumum()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:36:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'aabw.tbl' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`', [], false)
+ 4 APPPATH\Models\ModelTransaksi.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JurnalUmum.php(25): App\Models\ModelTransaksi->get_jurnalumum()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-11 23:36:50 --> [Caused by] mysqli_sql_exception: Table 'aabw.tbl' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl` `nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+ORDER BY `id_nilai`', [], false)
+ 5 APPPATH\Models\ModelTransaksi.php(63): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JurnalUmum.php(25): App\Models\ModelTransaksi->get_jurnalumum()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')

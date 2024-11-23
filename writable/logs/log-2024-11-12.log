@@ -1,0 +1,442 @@
+INFO - 2024-11-12 00:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 00:21:52 --> CSRF token verified.
+INFO - 2024-11-12 00:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 00:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 08:31:38 --> ParseError: syntax error, unexpected variable "$tglawal", expecting ")"
+[Method: GET, Route: Transaksi/akun3]
+in APPPATH\Models\ModelTransaksi.php on line 64.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\aabw\\vendor\\composer/../../app\\Models\\ModelTransaksi.php')
+ 2 APPPATH\Controllers\Transaksi.php(29): Composer\Autoload\ClassLoader->loadClass('App\\Models\\ModelTransaksi')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-12 08:31:39 --> ParseError: syntax error, unexpected variable "$tglawal", expecting ")"
+[Method: GET, Route: Transaksi/status]
+in APPPATH\Models\ModelTransaksi.php on line 64.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\aabw\\vendor\\composer/../../app\\Models\\ModelTransaksi.php')
+ 2 APPPATH\Controllers\Transaksi.php(29): Composer\Autoload\ClassLoader->loadClass('App\\Models\\ModelTransaksi')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Transaksi->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 08:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 08:32:42 --> ErrorException: Undefined variable $tglakhir
+[Method: GET, Route: jurnalumum]
+in APPPATH\Controllers\JurnalUmum.php on line 28.
+ 1 APPPATH\Controllers\JurnalUmum.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tglakhir', 'C:\\xampp\\htdocs\\aabw\\app\\Controllers\\JurnalUmum.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-12 08:34:20 --> ErrorException: Undefined variable $tglakhir
+[Method: GET, Route: jurnalumum]
+in APPPATH\Controllers\JurnalUmum.php on line 28.
+ 1 APPPATH\Controllers\JurnalUmum.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tglakhir', 'C:\\xampp\\htdocs\\aabw\\app\\Controllers\\JurnalUmum.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-12 08:34:21 --> ErrorException: Undefined variable $tglakhir
+[Method: GET, Route: jurnalumum]
+in APPPATH\Controllers\JurnalUmum.php on line 28.
+ 1 APPPATH\Controllers\JurnalUmum.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tglakhir', 'C:\\xampp\\htdocs\\aabw\\app\\Controllers\\JurnalUmum.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-12 08:34:22 --> ErrorException: Undefined variable $tglakhir
+[Method: GET, Route: jurnalumum]
+in APPPATH\Controllers\JurnalUmum.php on line 28.
+ 1 APPPATH\Controllers\JurnalUmum.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tglakhir', 'C:\\xampp\\htdocs\\aabw\\app\\Controllers\\JurnalUmum.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-12 08:35:42 --> ErrorException: Undefined variable $tglakhir
+[Method: GET, Route: jurnalumum]
+in APPPATH\Controllers\JurnalUmum.php on line 28.
+ 1 APPPATH\Controllers\JurnalUmum.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tglakhir', 'C:\\xampp\\htdocs\\aabw\\app\\Controllers\\JurnalUmum.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-12 08:36:01 --> Error: Undefined constant "App\Controllers\temp2"
+[Method: GET, Route: jurnalumum]
+in APPPATH\Controllers\JurnalUmum.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 08:42:37 --> CSRF token verified.
+CRITICAL - 2024-11-12 08:42:37 --> Error: Undefined constant "App\Controllers\this"
+[Method: POST, Route: jurnalumum]
+in APPPATH\Controllers\JurnalUmum.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 08:43:31 --> CSRF token verified.
+INFO - 2024-11-12 08:43:34 --> CSRF token verified.
+INFO - 2024-11-12 08:43:40 --> CSRF token verified.
+CRITICAL - 2024-11-12 08:44:11 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('jurnalumum', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 08:44:33 --> CSRF token verified.
+CRITICAL - 2024-11-12 08:46:20 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('jurnalumum', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 08:46:40 --> CSRF token verified.
+ERROR - 2024-11-12 08:46:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '2021-12-01'
+AND `tanggal` <= '2021-12-04'
+ORDER BY `id_nilai`' at line 5 in C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aabw\app\Models\ModelTransaksi.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aabw\app\Controllers\JurnalUmum.php(28): App\Models\ModelTransaksi->get_jurnalumum('2021-12-01', '2021-12-04')
+#6 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+#7 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+#8 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aabw\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aabw\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-12 08:46:40 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '2021-12-01'
+AND `tanggal` <= '2021-12-04'
+ORDER BY `id_nilai`' at line 5
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+WHERE `tanggal` = > :tanggal =:
+AND `tanggal` <= :tanggal:
+ORDER BY `id_nilai`', [...], false)
+ 2 APPPATH\Models\ModelTransaksi.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JurnalUmum.php(28): App\Models\ModelTransaksi->get_jurnalumum('2021-12-01', '2021-12-04')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-12 08:46:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '2021-12-01'
+AND `tanggal` <= '2021-12-04'
+ORDER BY `id_nilai`' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+WHERE `tanggal` = > \'2021-12-01\'
+AND `tanggal` <= \'2021-12-04\'
+ORDER BY `id_nilai`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+WHERE `tanggal` = > \'2021-12-01\'
+AND `tanggal` <= \'2021-12-04\'
+ORDER BY `id_nilai`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+WHERE `tanggal` = > :tanggal =:
+AND `tanggal` <= :tanggal:
+ORDER BY `id_nilai`', [...], false)
+ 4 APPPATH\Models\ModelTransaksi.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\JurnalUmum.php(28): App\Models\ModelTransaksi->get_jurnalumum('2021-12-01', '2021-12-04')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+CRITICAL - 2024-11-12 08:46:40 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '2021-12-01'
+AND `tanggal` <= '2021-12-04'
+ORDER BY `id_nilai`' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+WHERE `tanggal` = > \'2021-12-01\'
+AND `tanggal` <= \'2021-12-04\'
+ORDER BY `id_nilai`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+WHERE `tanggal` = > \'2021-12-01\'
+AND `tanggal` <= \'2021-12-04\'
+ORDER BY `id_nilai`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+WHERE `tanggal` = > \'2021-12-01\'
+AND `tanggal` <= \'2021-12-04\'
+ORDER BY `id_nilai`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_nilai`
+JOIN `tbl_transaksi` ON `tbl_transaksi`.`id_transaksi`=`tbl_nilai`.`id_transaksi`
+JOIN `akun3s` ON `akun3s`.`kode_akun3`=`tbl_nilai`.`kode_akun3`
+WHERE `tanggal` = > :tanggal =:
+AND `tanggal` <= :tanggal:
+ORDER BY `id_nilai`', [...], false)
+ 5 APPPATH\Models\ModelTransaksi.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\JurnalUmum.php(28): App\Models\ModelTransaksi->get_jurnalumum('2021-12-01', '2021-12-04')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JurnalUmum->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JurnalUmum))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 08:48:37 --> CSRF token verified.
+INFO - 2024-11-12 08:48:40 --> CSRF token verified.
+INFO - 2024-11-12 08:48:58 --> CSRF token verified.
+INFO - 2024-11-12 08:49:01 --> CSRF token verified.
+INFO - 2024-11-12 08:49:03 --> CSRF token verified.
+INFO - 2024-11-12 08:49:05 --> CSRF token verified.
+CRITICAL - 2024-11-12 09:17:50 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('jurnalumum', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 09:18:08 --> CSRF token verified.
+INFO - 2024-11-12 09:18:36 --> CSRF token verified.
+INFO - 2024-11-12 09:18:38 --> CSRF token verified.
+INFO - 2024-11-12 09:18:40 --> CSRF token verified.
+INFO - 2024-11-12 09:19:38 --> CSRF token verified.
+CRITICAL - 2024-11-12 09:23:48 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('jurnalumum', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 09:24:17 --> CSRF token verified.
+INFO - 2024-11-12 09:24:19 --> CSRF token verified.
+INFO - 2024-11-12 09:24:21 --> CSRF token verified.
+CRITICAL - 2024-11-12 09:29:27 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('jurnalumum', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 09:29:53 --> CSRF token verified.
+INFO - 2024-11-12 09:29:56 --> CSRF token verified.
+INFO - 2024-11-12 09:29:57 --> CSRF token verified.
+INFO - 2024-11-12 09:32:58 --> CSRF token verified.
+INFO - 2024-11-12 09:32:59 --> CSRF token verified.
+INFO - 2024-11-12 09:33:00 --> CSRF token verified.
+CRITICAL - 2024-11-12 09:35:19 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('jurnalumum', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 09:35:42 --> CSRF token verified.
+INFO - 2024-11-12 09:35:44 --> CSRF token verified.
+INFO - 2024-11-12 09:35:46 --> CSRF token verified.
+CRITICAL - 2024-11-12 09:37:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('jurnalumum', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 09:37:52 --> CSRF token verified.
+INFO - 2024-11-12 09:37:53 --> CSRF token verified.
+CRITICAL - 2024-11-12 09:46:27 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('jurnalumum', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 09:46:50 --> CSRF token verified.
+INFO - 2024-11-12 09:46:52 --> CSRF token verified.
+CRITICAL - 2024-11-12 09:47:18 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('jurnalumum', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 09:47:28 --> CSRF token verified.
+INFO - 2024-11-12 09:47:31 --> CSRF token verified.
+INFO - 2024-11-12 09:59:16 --> CSRF token verified.
+INFO - 2024-11-12 10:09:54 --> CSRF token verified.
+INFO - 2024-11-12 10:11:10 --> CSRF token verified.
+INFO - 2024-11-12 10:11:13 --> CSRF token verified.
+INFO - 2024-11-12 10:12:32 --> CSRF token verified.
+INFO - 2024-11-12 10:12:34 --> CSRF token verified.
+INFO - 2024-11-12 10:13:23 --> CSRF token verified.
+INFO - 2024-11-12 10:13:25 --> CSRF token verified.
+INFO - 2024-11-12 10:15:36 --> CSRF token verified.
+CRITICAL - 2024-11-12 10:16:01 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: jurnalumum]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('jurnalumum', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 10:16:08 --> CSRF token verified.
+INFO - 2024-11-12 10:16:10 --> CSRF token verified.
+INFO - 2024-11-12 10:17:52 --> CSRF token verified.
+INFO - 2024-11-12 11:04:18 --> CSRF token verified.
+INFO - 2024-11-12 11:04:21 --> CSRF token verified.
+INFO - 2024-11-12 11:05:44 --> CSRF token verified.
+INFO - 2024-11-12 11:07:18 --> CSRF token verified.
+INFO - 2024-11-12 11:12:15 --> CSRF token verified.
+INFO - 2024-11-12 11:12:17 --> CSRF token verified.
+CRITICAL - 2024-11-12 11:12:17 --> Error: Class "App\Controllers\TCPDF" not found
+[Method: POST, Route: posting/postingpdf]
+in APPPATH\Controllers\Posting.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Posting->postingpdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 11:15:04 --> CSRF token verified.
+CRITICAL - 2024-11-12 11:15:04 --> Error: Class "App\Controllers\TCPDF" not found
+[Method: POST, Route: posting/postingpdf]
+in APPPATH\Controllers\Posting.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Posting->postingpdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posting))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 11:16:10 --> CSRF token verified.
+INFO - 2024-11-12 11:16:54 --> CSRF token verified.
+INFO - 2024-11-12 11:18:15 --> CSRF token verified.
+INFO - 2024-11-12 11:25:14 --> CSRF token verified.
+CRITICAL - 2024-11-12 11:27:57 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: posting]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(205): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('posting', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aabw\\public\\index.php')
+INFO - 2024-11-12 11:28:20 --> CSRF token verified.
+INFO - 2024-11-12 11:28:33 --> CSRF token verified.
+INFO - 2024-11-12 11:28:37 --> CSRF token verified.
